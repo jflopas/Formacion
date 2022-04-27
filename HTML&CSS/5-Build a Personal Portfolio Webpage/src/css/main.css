@@ -188,7 +188,7 @@ body #projects .projects {
   display: grid;
   -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  grid-gap: 50px;
+  grid-gap: 100px;
 }
 
 body #projects .projects .project:hover {
