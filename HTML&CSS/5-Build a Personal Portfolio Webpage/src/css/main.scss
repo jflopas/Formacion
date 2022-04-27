@@ -161,7 +161,7 @@ body {
     .projects {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-      grid-gap: 50px;
+      grid-gap: 100px;
       .project:hover {
         background-color: color(nav);
         transition: ease-in-out 0.2s;
