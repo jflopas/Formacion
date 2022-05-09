@@ -10,3 +10,6 @@ HTML & CSS
 JAVASCRIPT
   - Search On Type: https://codepen.io/jfloresbs/pen/PoQqLQR
   - Counter: https://codepen.io/jfloresbs/pen/GRQZKNL
+
+ANGULAR
+  - Display/Hide: https://github.com/jfloresbs/FormacionBosonit/tree/main/Angular/1-displayHide
