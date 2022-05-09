@@ -1,0 +1,7 @@
+<div id="container">
+  <h1>Welcome to {{ title }} exercise:</h1>
+  <button (click)="disableBox()">Click me!</button>
+  <div id="box" *ngIf="show">
+    <p>Hello World! <img src="../assets/img/world.png" /></p>
+  </div>
+</div>
