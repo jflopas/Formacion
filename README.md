@@ -1,15 +1,17 @@
 # Practical Assessment:
 
+Enlace página web con los ejercicios: https://jfloresbs.github.io/
+
 HTML & CSS
-  - Build a Tribute Page: https://codepen.io/jfloresbs/pen/qBpoVga
-  - Build a Survey Form: https://codepen.io/jfloresbs/pen/yLpKjXN
-  - Build a Product Landing Page: https://codepen.io/jfloresbs/pen/popqeXp
-  - Build a Technical Documentation Page: https://codepen.io/jfloresbs/pen/LYeqEJX
-  - Build a Personal Portfolio Webpage: https://codepen.io/jfloresbs/pen/QWaoaPy
+  - Build a Tribute Page: https://jfloresbs.github.io/TributePage/
+  - Build a Survey Form: https://jfloresbs.github.io/SurveyForm/
+  - Build a Product Landing Page: https://jfloresbs.github.io/ProductPage/
+  - Build a Technical Documentation Page: https://jfloresbs.github.io/Documentation/
+  - Build a Personal Portfolio Webpage: https://jfloresbs.github.io/Portfolio/
 
 JAVASCRIPT
-  - Search On Type: https://codepen.io/jfloresbs/pen/PoQqLQR
-  - Counter: https://codepen.io/jfloresbs/pen/GRQZKNL
+  - Search On Type: https://jfloresbs.github.io/Search/
+  - Counter: https://jfloresbs.github.io/Counter/
 
 ANGULAR
   - Display/Hide: https://jfloresbs.github.io/display-hide/
