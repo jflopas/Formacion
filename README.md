@@ -12,4 +12,4 @@ JAVASCRIPT
   - Counter: https://codepen.io/jfloresbs/pen/GRQZKNL
 
 ANGULAR
-  - Display/Hide: https://github.com/jfloresbs/FormacionBosonit/tree/main/Angular/1-displayHide
+  - Display/Hide: https://jfloresbs.github.io/display-hide/
