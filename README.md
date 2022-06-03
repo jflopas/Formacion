@@ -16,3 +16,4 @@ JAVASCRIPT
 ANGULAR
   - Display/Hide: https://jfloresbs.github.io/display-hide/
   - Component Communication: https://jfloresbs.github.io/ComponentCommunication/
+  - Light Switch: https://jfloresbs.github.io/LightSwitch/
