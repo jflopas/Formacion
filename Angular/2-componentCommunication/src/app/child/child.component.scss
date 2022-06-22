@@ -1,0 +1,50 @@
+$colors: (
+  back: #e0fbfc,
+  text: #fdfdff,
+  btn: #ee6c4d,
+  bord: darken(#98c1d9, 20%),
+  text-dark: #293241,
+  btn-hover: darken(#ee6c4d, 20%),
+);
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
+
+#container {
+  border: 5px solid color(bord);
+  margin: 20px;
+  padding: 0px 20px 20px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px 0px color(bord);
+  h2 {
+    font-size: 40px;
+    margin-left: 50px;
+    color: color(text-dark);
+  }
+  p {
+    text-align: center;
+    font-size: 30px;
+    color: color(text-dark);
+  }
+  #box-btn {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 40%;
+    .btn {
+      font-size: 20px;
+      padding: 15px;
+      background-color: color(btn);
+      color: color(text);
+      text-shadow: 2px 2px 2px color(btn-hover);
+      box-shadow: 3px 3px 10px 0px color(bord);
+      border: none;
+      border-radius: 15px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: color(btn-hover);
+    }
+  }
+}
