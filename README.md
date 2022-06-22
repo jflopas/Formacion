@@ -12,6 +12,7 @@ HTML & CSS
 JAVASCRIPT
   - Search On Type: https://jfloresbs.github.io/Search/
   - Counter: https://jfloresbs.github.io/Counter/
+  - Exercises: https://github.com/jfloresbs/FormacionBosonit/tree/main/JavaScript/Exercises
 
 ANGULAR
   - Display/Hide: https://jfloresbs.github.io/display-hide/
