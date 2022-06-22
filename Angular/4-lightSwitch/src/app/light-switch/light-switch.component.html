@@ -1,0 +1,55 @@
+<div id="container">
+  <h1 id="title">LIGHT SWITCH - JAFP</h1>
+
+  <!-- Light Switch -->
+
+  <div id="light-switch">
+    <div
+      [ngClass]="{
+        red: on && color == 'red',
+        off: !on || color != 'red'
+      }"
+    ></div>
+    <div
+      [ngClass]="{
+        yellow: on && color == 'yellow',
+        off: !on || color != 'yellow'
+      }"
+    ></div>
+    <div
+      [ngClass]="{
+        green: on && color == 'green',
+        off: !on || color != 'green'
+      }"
+    ></div>
+  </div>
+
+  <!-- Controller -->
+
+  <form id="containerForm">
+    <h1>Controller</h1>
+
+    <span>
+      <input
+        type="checkbox"
+        (change)="turnOn($event)"
+        name="check"
+        id="check"
+      />
+      <label *ngIf="!on; else lightOn" for="check" class="checkLabel">
+        ON / <b>OFF</b>
+      </label>
+      <ng-template #lightOn>
+        <label for="check" class="checkLabel"> <b>ON</b> / OFF </label>
+      </ng-template>
+    </span>
+
+    <br />
+
+    <select (change)="chosenColor($event)" id="select">
+      <option *ngFor="let color of colors" value="{{ color }}">
+        {{ color | titlecase }}
+      </option>
+    </select>
+  </form>
+</div>
