@@ -1,6 +1,6 @@
 # Practical Assessment:
 
-Enlace página web con los ejercicios: https://jfloresbs.github.io/
+Web: https://jfloresbs.github.io/
 
 HTML & CSS
   - Build a Tribute Page: https://jfloresbs.github.io/TributePage/
