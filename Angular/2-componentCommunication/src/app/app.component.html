@@ -1,0 +1,29 @@
+<h1>{{ title }}</h1>
+<div id="container">
+  <h2>Parent</h2>
+  <p>Message: {{ messageParent }}</p>
+  <div id="box-btn">
+    <input
+      type="button"
+      value="Use Service"
+      class="btn"
+      (click)="servParent()"
+    />
+    <input
+      type="button"
+      value="Use Input Property"
+      class="btn"
+      (click)="inputChild()"
+    />
+    <input
+      type="button"
+      value="Use Observable"
+      class="btn"
+      (click)="obsParent()"
+    />
+  </div>
+  <app-child
+    [message]="messageChild"
+    (sendParent)="parentOutput($event)"
+  ></app-child>
+</div>

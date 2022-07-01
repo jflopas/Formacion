@@ -1,0 +1,24 @@
+<div id="container">
+  <h2>Child</h2>
+  <p>Message: {{ message }}</p>
+  <div id="box-btn">
+    <input
+      type="button"
+      value="Use Service"
+      class="btn"
+      (click)="servChild()"
+    />
+    <input
+      type="button"
+      value="Use Output Property"
+      class="btn"
+      (click)="parentOut()"
+    />
+    <input
+      type="button"
+      value="Use Observable"
+      class="btn"
+      (click)="obsChild()"
+    />
+  </div>
+</div>
