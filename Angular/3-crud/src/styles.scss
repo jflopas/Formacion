@@ -1,0 +1,91 @@
+* {
+  font-family: "Segoe UI", Helvetica, Arial;
+}
+body {
+  background-color: #1f2d40;
+  color: #ebedef;
+  #title {
+    display: flex;
+    justify-content: center;
+  }
+  #container {
+    display: flex;
+    justify-content: space-evenly;
+    #form {
+      background-color: #3c577c;
+      margin-left: 20px;
+      padding: 0 40px 40px 40px;
+      min-width: max-content;
+      box-shadow: 5px 5px 20px 0px #000;
+      border: 5px solid #ebedef9d;
+      border-radius: 20px;
+      .p-float-label {
+        margin-bottom: 25px;
+        input {
+          width: 15vw;
+          min-width: 150px;
+          border-radius: 10px;
+        }
+      }
+      #check {
+        display: flex;
+        text-align: center;
+        margin-bottom: 25px;
+
+        #labelCheck {
+          margin-left: 20px;
+        }
+      }
+      .dropdown {
+        width: 15vw;
+        min-width: 150px;
+        border-radius: 10px;
+      }
+      button {
+        border-radius: 10px;
+      }
+    }
+    #table {
+      background-color: #3c577c;
+      margin-left: 20px;
+      padding: 0 40px 40px 40px;
+      min-width: max-content;
+      box-shadow: 5px 5px 20px 0px #000;
+      border: 5px solid #ebedef9d;
+      border-radius: 20px;
+      height: max-content;
+      #register {
+        .fields {
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+  @media (max-width: 1200px) {
+    #container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      #form {
+        margin-bottom: 50px;
+        #myForm {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .p-float-label {
+            margin-bottom: 25px;
+            input {
+              width: 30vw;
+              min-width: 150px;
+            }
+          }
+          .dropdown {
+            width: 30vw;
+            min-width: 150px;
+          }
+        }
+      }
+    }
+  }
+}
