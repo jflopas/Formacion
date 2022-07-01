@@ -17,5 +17,7 @@ JAVASCRIPT
 ANGULAR
   - Display/Hide: https://jfloresbs.github.io/display-hide/
   - Component Communication: https://jfloresbs.github.io/ComponentCommunication/
+  - Crud: https://github.com/jfloresbs/FormacionBosonit/tree/main/Angular/3-crud
+  - Crud JSON Server: https://github.com/jfloresbs/FormacionBosonit/tree/main/Angular/3-crud/src/assets/server
   - Light Switch: https://jfloresbs.github.io/LightSwitch/
   - External Library: https://jfloresbs.github.io/barChart
