@@ -1,0 +1,41 @@
+<div id="container">
+  <div id="form">
+    <app-form></app-form>
+  </div>
+  <div id="table">
+    <app-user-table (modifyUser)="modify($event)"></app-user-table>
+  </div>
+</div>
+
+<!-- Tutorial JSON Server -->
+<div id="server">
+  <button pButton type="button" (click)="showDialog()" class="p-button-warning">
+    HOW TO INIT JSON SERVER?
+  </button>
+  <p-dialog
+    header="HOW TO INIT JSON SERVER?"
+    [(visible)]="display"
+    [modal]="true"
+  >
+    First, ensure that you have install JSON Server, if not, go to this link:
+    <a href="https://www.npmjs.com/package/json-server">JSON Server</a>.<br />
+    Next, download the database
+    <a
+      href="https://drive.google.com/file/d/1VDEpEty25Jx7cXfxUhmCj-jdeSwU76fv/view?usp=sharing"
+    >
+      db.json </a
+    >. Then, open your console in the folder that you save the json file and,
+    finally, run the next command:
+    <span #command>json-server --watch db.json</span>
+    <ng-template pTemplate="footer">
+      <button
+        pButton
+        type="button"
+        (click)="display = false"
+        class="p-button-text"
+      >
+        <i class="pi pi-check"></i>Ok
+      </button>
+    </ng-template>
+  </p-dialog>
+</div>
