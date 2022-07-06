@@ -9,7 +9,6 @@ import { UsersService } from '../services/users.service';
 })
 export class UserTableComponent implements OnInit {
   usersList!: Users[];
-  dataSource: any;
   @Output() modifyUser = new EventEmitter<Users>();
   constructor(private users: UsersService) {}
 
