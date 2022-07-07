@@ -1,0 +1,33 @@
+<div id="container">
+  <h1 id="title">{{ title | uppercase }}</h1>
+
+  <!-- Light Switch -->
+
+  <div id="light-switch">
+    <div
+      [ngClass]="{
+        red: on && color == 'red',
+        off: !on || color != 'red'
+      }"
+    ></div>
+    <div
+      [ngClass]="{
+        yellow: on && color == 'yellow',
+        off: !on || color != 'yellow'
+      }"
+    ></div>
+    <div
+      [ngClass]="{
+        green: on && color == 'green',
+        off: !on || color != 'green'
+      }"
+    ></div>
+  </div>
+
+  <!-- Controller -->
+
+  <app-controller
+    (on)="turnLightSwitch($event)"
+    (color)="colorLight($event)"
+  ></app-controller>
+</div>

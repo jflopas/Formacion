@@ -1,0 +1,21 @@
+<form id="controller">
+  <h1>Controller</h1>
+
+  <span>
+    <input type="checkbox" (change)="turnOn($event)" name="check" id="check" />
+    <label *ngIf="!bold; else lightOn" for="check" class="checkLabel">
+      ON / <b>OFF</b>
+    </label>
+    <ng-template #lightOn>
+      <label for="check" class="checkLabel"> <b>ON</b> / OFF </label>
+    </ng-template>
+  </span>
+
+  <br />
+
+  <select (change)="chosenColor($event)" id="select">
+    <option *ngFor="let color of colors" value="{{ color }}">
+      {{ color | titlecase }}
+    </option>
+  </select>
+</form>
