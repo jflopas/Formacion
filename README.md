@@ -19,5 +19,5 @@ ANGULAR
   - Component Communication: https://jfloresbs.github.io/ComponentCommunication/
   - Crud: https://jfloresbs.github.io/crud/
   - Crud JSON Server: https://github.com/jfloresbs/FormacionBosonit/tree/main/Angular/3-crud/src/assets/server
-  - Light Switch: https://jfloresbs.github.io/LightSwitch/
+  - Light Switch: https://jfloresbs.github.io/light-switch/
   - External Library: https://jfloresbs.github.io/barChart
