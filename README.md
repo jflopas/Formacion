@@ -21,3 +21,4 @@ ANGULAR
   - Crud JSON Server: https://github.com/jfloresbs/FormacionBosonit/tree/main/Angular/3-crud/src/assets/server
   - Light Switch: https://jfloresbs.github.io/light-switch/
   - External Library: https://jfloresbs.github.io/barChart
+  - Counter RXJS: https://jfloresbs.github.io/angularCounter/
