@@ -1,0 +1,50 @@
+<div class="container">
+  <mat-card class="card">
+    <form>
+      <div class="container">
+        <h1>{{ watch$ | async }}</h1>
+      </div>
+      <div class="counter">
+        <h4>Setup</h4>
+        <div class="buttons">
+          <button #startBtn [ngClass]="{ disabled: count != 0 }">Start</button>
+          <button #pauseBtn>Pause</button>
+          <button #resetBtn>Reset</button>
+        </div>
+      </div>
+      <div class="counter">
+        <h4>Count</h4>
+        <div class="buttons">
+          <button #upBtn>Count up</button>
+          <button #downBtn>Count down</button>
+        </div>
+      </div>
+      <div class="counter">
+        <br />
+        <mat-form-field class="input">
+          <mat-label>Set to</mat-label>
+          <input
+            matInput
+            type="number"
+            [formControl]="setToInput"
+            [ngModel]="set"
+            (click)="setTo()"
+            (keyup)="setTo()"
+          />
+        </mat-form-field>
+      </div>
+      <div class="counter">
+        <br />
+        <mat-form-field class="input">
+          <mat-label>Step</mat-label>
+          <input
+            matInput
+            type="number"
+            [formControl]="stepInput"
+            [ngModel]="step"
+          />
+        </mat-form-field>
+      </div>
+    </form>
+  </mat-card>
+</div>
