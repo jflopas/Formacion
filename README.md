@@ -12,13 +12,13 @@ HTML & CSS
 JAVASCRIPT
   - Search On Type: https://jflopas.github.io/Search/
   - Counter: https://jflopas.github.io/Counter/
-  - Exercises: https://github.com/jflopas/FormacionBosonit/tree/main/JavaScript/Exercises
+  - Exercises: https://github.com/jflopas/Formacion/tree/main/JavaScript/Exercises
 
 ANGULAR
   - Display/Hide: https://jflopas.github.io/display-hide/
   - Component Communication: https://jflopas.github.io/ComponentCommunication/
   - Crud: https://jflopas.github.io/crud/
-  - Crud JSON Server: https://github.com/jflopas/FormacionBosonit/tree/main/Angular/3-crud/src/assets/server
+  - Crud JSON Server: https://github.com/jflopas/Formacion/tree/main/Angular/3-crud/src/assets/server
   - Light Switch: https://jflopas.github.io/light-switch/
   - External Library: https://jflopas.github.io/barChart
   - Counter RXJS: https://jflopas.github.io/angularCounter/
